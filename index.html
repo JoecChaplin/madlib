@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Joe Mark Mad lib</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">   
+      
+    </head>
+    <body>
+        <div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<div class="content">
+        <h1>Birthday Odyssey</h1>
+            I am <span id="r1"></span> a <span id="r2"></span> <span id="r3"></span> party for my birthday.<p>
+            Im <span id="r4"></span> my best friends like <span id="r5"></span> and <span id="r6"></span> and <span id="r7"></span>. </p>
+            The party will be at <span id="r8"></span> with <span id="r9"></span> <span id="r10"></span> and <span id="r11"></span> <span id="r12"></span> for decoration.<p>
+            First we will <span id="r13"></span> some snacks like <span id="one"></span> and <span id="two"></span>,<p>
+            them we will <span id="three"></span> some party games like <span id="four"></span> the <span id="five"></span> on the <span id="six"></span> and <span id="seven"></span> the <span id="eight"></span>.<p>
+            then comes my favorit part: <span id="nine"></span> happy  <span id="ten"></span> presents and  <span id="eleven"></span> some  <span id="twelve"></span>.
+</div>
+    <!-- Code injected by live-server -->
+<script type="text/javascript">
+    // <![CDATA[  <-- For SVG support
+    if ('WebSocket' in window) {
+            (function() {
+                    function refreshCSS() {
+                            var sheets = [].slice.call(document.getElementsByTagName("link"));
+                            var head = document.getElementsByTagName("head")[0];
+                            for (var i = 0; i < sheets.length; ++i) {
+                                    var elem = sheets[i];
+                                    head.removeChild(elem);
+                                    var rel = elem.rel;
+                                    if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                                    }
+                                    head.appendChild(elem);
+                            }
+                    }
+                    var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                    var address = protocol + window.location.host + window.location.pathname + 'ws';
+                    var socket = new WebSocket(address);
+                    socket.onmessage = function(msg) {
+                            if (msg.data == 'reload') window.location.reload();
+                            else if (msg.data == 'refreshcss') refreshCSS();
+                    };
+                    console.log('Live reload enabled.');
+            })();
+    }
+    // ]]>
+</script></body>
+
+      <script>
+        //Build the prompts and set them equal to variables so can use them later.
+           
+        var one = document.getElementById("r1");
+        var two = document.getElementById("r2");
+        var three = document.getElementById("r3");
+        var four = document.getElementById("r4");
+        var five = document.getElementById("r5");
+        var six = document.getElementById("r6");
+        var seven = document.getElementById("r7");
+        var eight = document.getElementById("r8");
+        var nine = document.getElementById("r9");
+        var ten = document.getElementById("r10");
+        var eleven = document.getElementById("r11");
+        var twelve = document.getElementById("r12");
+        var thirteen = document.getElementById("r13");
+        var fourteen = document.getElementById("one");
+        var fifteen = document.getElementById("two");
+        var sixteen = document.getElementById("three");
+        var seventeen = document.getElementById("four");
+        var eighteen= document.getElementById("five");
+        var nineteen = document.getElementById("six");
+        var twenty = document.getElementById("seven");
+        var twentyone = document.getElementById("eight");
+        var twentytwo = document.getElementById("nine");
+        var twentythree = document.getElementById("ten");
+        var twentyfour = document.getElementById("eleven");
+        var twentyfive = document.getElementById("twelve");
+
+
+        var pr1=prompt("Verb -ing.");
+        var pr2=prompt("Adverb.");
+        var pr3=prompt("Adjective");
+        var pr4=prompt("Verb -ing");
+        var pr5 = prompt("Proper noun; First name");
+        var pr6=prompt("Proper noun; First name");
+        var pr7=prompt("Proper noun; First name");
+        var pr8 = prompt("Noun; Place");
+        var pr9 = prompt("Adjective");
+        var pr10 = prompt("Plural noun");
+        var p1 = prompt("Adjective; color");
+        var p2 = prompt("Plural Noun");
+        var p3 = prompt("Verb");
+        var p4= prompt("Noun; food");
+        var p5= prompt("Noun; food");
+        var p6= prompt("Verb");
+        var p7= prompt("Verb");
+        var p8= prompt("Noun; Part of the body");
+        var p9= prompt("Noun; animal");
+        var p10= prompt("Verb");
+        var p11= prompt("Plural Noun");
+        var p12= prompt("Verb -ing");
+        var p13= prompt("Verb -ing");
+        var p14= prompt("Verb -ing");
+        var p15= prompt("Adjective");
+
+        one.innerHTML = pr1;
+        two.innerHTML = pr2;
+        three.innerHTML = pr3;
+        four.innerHTML = pr4;
+        five.innerHTML = pr5;
+        six.innerHTML = pr6;
+        seven.innerHTML = pr7;
+        eight.innerHTML = pr8;
+        nine.innerHTML = pr9;
+        ten.innerHTML = pr10;
+        eleven.innerHTML = p1;
+        twelve.innerHTML = p2;
+        thirteen.innerHTML = p3;
+        fourteen.innerHTML = p4;
+        fifteen.innerHTML = p5;
+        sixteen.innerHTML = p6;
+        seventeen.innerHTML = p7;
+        eighteen.innerHTML = p8;
+        nineteen.innerHTML = p9;
+        twenty.innerHTML = p10;
+        twentyone.innerHTML = p11;
+        twentytwo.innerHTML = p12;
+        twentythree.innerHTML = p13;
+        twentyfour.innerHTML = p14;
+        twentyfive.innerHTML = p15;
+
+        </script>
+</html>
